@@ -3,7 +3,7 @@
 $db_host = '34.154.150.50';
 $db_name = 'image_catalog';
 $db_user = 'appmod-phpapp-user';
-$db_pass = 'CLOUDSQL_INSTANCE_PASSWORD';
+$db_pass = 'secret123';
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
