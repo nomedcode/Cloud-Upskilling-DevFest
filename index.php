@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+die("DEBUG: Password being used is: [" . $db_pass . "]");
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
