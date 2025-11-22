@@ -3,7 +3,7 @@
 $db_host = '34.50.111.51';
 $db_name = 'image_catalog';
 $db_user = 'appmod-phpapp-user';
-$db_pass = 'Lego123jawa';
+$db_pass = 'Lego123jaw@';
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
