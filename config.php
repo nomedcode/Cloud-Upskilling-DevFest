@@ -1,6 +1,6 @@
 <?php
 // Configurazione del database
-$db_host = '34.154.35.51';
+$db_host = '34.154.150.50';
 $db_name = 'image_catalog';
 $db_user = 'appmod-phpapp-user';
 $db_pass = 'CLOUDSQL_INSTANCE_PASSWORD';
